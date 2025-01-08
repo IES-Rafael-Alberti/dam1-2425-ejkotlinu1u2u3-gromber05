@@ -7,6 +7,7 @@ fun unidad02() {
     while (!salir) {
         println(
             """
+        Unidad 2
         Sentencias Condicionales
         1. Ejercicio 2
         2. Ejercicio 3

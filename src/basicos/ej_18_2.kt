@@ -1,4 +1,4 @@
-package unidad1
+package basicos
 
 fun Ejercicio18_U1() {
     println("Introduzca su nombre de usuario >> ")

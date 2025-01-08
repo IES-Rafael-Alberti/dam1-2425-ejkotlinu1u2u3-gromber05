@@ -1,4 +1,4 @@
-package unidad1
+package basicos
 
 fun Ejercicio04_U1() {
     println("Introduce los grados Celsius:")

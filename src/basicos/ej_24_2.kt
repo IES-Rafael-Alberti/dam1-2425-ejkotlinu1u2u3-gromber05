@@ -1,4 +1,4 @@
-package unidad1
+package basicos
 
 fun Ejercicio24_U1() {
     println("Introduzca el precio del producto con dos decimales >> ")

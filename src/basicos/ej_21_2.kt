@@ -1,4 +1,4 @@
-package unidad1
+package basicos
 
 fun Ejercicio21_U1(){
     println("Introduzca una frase >> ")

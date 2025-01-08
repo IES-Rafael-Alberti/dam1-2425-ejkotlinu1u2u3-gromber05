@@ -1,4 +1,4 @@
-package unidad1
+package basicos
 
 fun Ejercicio20_U1() {
     println("Introduzca un numero con el siguiente formato (+XX-XXXXXXXXX-XX) >> ")

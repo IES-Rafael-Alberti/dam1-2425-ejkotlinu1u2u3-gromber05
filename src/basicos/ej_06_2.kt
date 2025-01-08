@@ -1,4 +1,4 @@
-package unidad1
+package basicos
 
 fun Ejercicio06_U1() {
     println("Introduce el precio con IVA (0.10%): ")

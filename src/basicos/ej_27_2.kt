@@ -1,4 +1,4 @@
-package unidad1
+package basicos
 
 fun Ejercicio27_U1() {
     println("Introduzca aquí el nombre del producto >> ")

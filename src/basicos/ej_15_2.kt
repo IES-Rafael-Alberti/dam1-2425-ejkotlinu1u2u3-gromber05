@@ -1,4 +1,4 @@
-package unidad1
+package basicos
 
 fun Ejercicio15_U1() {
     print("Introduzca su salario » ")

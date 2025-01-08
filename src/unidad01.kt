@@ -1,9 +1,12 @@
+import basicos.*
+
 fun unidad01() {
     var salir = false
 
     while (!salir) {
         println(
             """
+        Unidad 1
         1. Ejercicio 4
         2. Ejercicio 6
         3. Ejercicio 12
@@ -27,51 +30,51 @@ fun unidad01() {
             when (opcion) {
                 1 -> {
                     empezarPrograma()
-                    Ejercicio04()
+                    Ejercicio04_U1()
                     esperarYBorrarConsola()
                 } 2 -> {
                 empezarPrograma()
-                Ejercicio06()
+                Ejercicio06_U1()
                 esperarYBorrarConsola()
             } 3 -> {
                 empezarPrograma()
-                Ejercicio12()
+                Ejercicio12_U1()
                 esperarYBorrarConsola()
             } 4 -> {
                 empezarPrograma()
-                Ejercicio15()
+                Ejercicio15_U1()
                 esperarYBorrarConsola()
             } 5 -> {
                 empezarPrograma()
-                Ejercicio18()
+                Ejercicio18_U1()
                 esperarYBorrarConsola()
             } 6 -> {
                 empezarPrograma()
-                Ejercicio20()
+                Ejercicio20_U1()
                 esperarYBorrarConsola()
             } 7 -> {
                 empezarPrograma()
-                Ejercicio21()
+                Ejercicio21_U1()
                 esperarYBorrarConsola()
             } 8 -> {
                 empezarPrograma()
-                Ejercicio22()
+                Ejercicio22_U1()
                 esperarYBorrarConsola()
             } 9 -> {
                 empezarPrograma()
-                Ejercicio24()
+                Ejercicio24_U1()
                 esperarYBorrarConsola()
             } 10 -> {
                 empezarPrograma()
-                Ejercicio25()
+                Ejercicio25_U1()
                 esperarYBorrarConsola()
             } 11 -> {
                 empezarPrograma()
-                Ejercicio26()
+                Ejercicio26_U1()
                 esperarYBorrarConsola()
             } 12 -> {
                 empezarPrograma()
-                Ejercicio27()
+                Ejercicio27_U1()
                 esperarYBorrarConsola()
             } 13 -> salir = true
                 else -> {
@@ -81,7 +84,7 @@ fun unidad01() {
                 }
             }
         }
-        catch (NumberFormatException: java.lang.NumberFormatException) {
+        catch (numberFormatException: java.lang.NumberFormatException) {
             println("No puedes introducir un valor vacío")
             esperarYBorrarConsola()
         }

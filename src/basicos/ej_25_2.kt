@@ -1,4 +1,4 @@
-package unidad1
+package basicos
 
 fun Ejercicio25_U1() {
 

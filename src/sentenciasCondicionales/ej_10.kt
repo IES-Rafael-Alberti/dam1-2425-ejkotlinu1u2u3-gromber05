@@ -21,7 +21,7 @@ fun Ejercicio10_U2(){
 
         val ingrediente = readln()
 
-        imprimirPizza(vegetariana, ingrediente)
+        imprimirPizza(vegetariana = vegetariana, ingrediente = ingrediente)
 
     } catch (e: Exception) {
         println("ERROR: ${e.message}")

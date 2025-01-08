@@ -11,7 +11,7 @@ fun Ejercicio04_U1() {
         }
 
         val celsius = input.toFloat()
-        val fahrenheit = gradosAFahrenheit(celsius)
+        val fahrenheit = gradosAFahrenheit(grados = celsius)
         println("Fahrenheit: $fahrenheit")
     } catch (e: NumberFormatException) {
         println("Error: Debes introducir un número válido.")

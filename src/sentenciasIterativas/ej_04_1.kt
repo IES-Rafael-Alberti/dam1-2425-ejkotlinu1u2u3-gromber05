@@ -18,7 +18,7 @@ fun Ejercicio04_U2_1() {
 
 fun pedirNumero(): Int {
     var respuestaValida = false
-    var numero: Int = 0
+    var numero = 0
 
     while (!respuestaValida) {
         print("Introduzca un numero >> ")

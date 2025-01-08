@@ -8,7 +8,7 @@ fun Ejercicio07_U2_1() {
         println("Tabla del $numero")
 
         for (i in 0 until 11) {
-            val resultado = calculo(i, numero)
+            val resultado = calculo(i = i,numero = numero)
             println("$numero × $i = $resultado")
         }
     } catch (e : Exception) {

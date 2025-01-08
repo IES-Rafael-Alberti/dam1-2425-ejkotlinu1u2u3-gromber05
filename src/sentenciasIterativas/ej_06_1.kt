@@ -6,7 +6,7 @@ fun Ejercicio06_U2_1() {
 
     try {
         for (i in 0 until numero) {
-            println(bucle(i))
+            println(bucle(i = i))
         }
 
     } catch (e: Exception) {

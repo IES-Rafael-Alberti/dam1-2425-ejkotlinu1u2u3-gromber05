@@ -16,7 +16,7 @@ fun Ejercicio02_U2_1() {
 
 fun pedirEdad(): Int {
     var respuestaValida = false
-    var edad: Int = 0
+    var edad = 0
 
     while (!respuestaValida) {
         print("Introduzca su edad >> ")

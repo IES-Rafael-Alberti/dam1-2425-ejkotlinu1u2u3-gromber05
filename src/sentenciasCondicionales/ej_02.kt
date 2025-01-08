@@ -7,7 +7,7 @@ fun Ejercicio02_U2() {
         val contrasenia = readln()
         val contraseniaGuardada = "contraseña"
 
-        verificarContrasenia(contrasenia, contraseniaGuardada)
+        verificarContrasenia(contrasenia = contrasenia, contraseniaGuardada = contraseniaGuardada)
 
     } catch (exception: Exception) {
         println("ERROR: ${exception.message}")

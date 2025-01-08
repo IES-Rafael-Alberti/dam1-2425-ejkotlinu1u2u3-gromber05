@@ -5,7 +5,7 @@ fun Ejercicio20_U1() {
     try {
 
         val numero = readln()
-        val numero1 = procesarNumero(numero)
+        val numero1 = procesarNumero(numero = numero)
 
         println(numero1?.get(1))
 

@@ -10,9 +10,7 @@ fun Ejercicio08_U2_1() {
                 serie += "$i "
                 println(serie)
             }
-
         }
-
     } catch (e: Exception) {
         println("ERROR: ${e.message}")
     }

@@ -14,7 +14,7 @@ fun Ejercicio27_U1() {
 
         val precioTotal = precio * cantidad
 
-        cadenaATexto(producto, precio, precioTotal, cantidad)
+        cadenaATexto(producto = producto, precio = precio, precioTotal = precioTotal, cantidad = cantidad)
 
     } catch(e:Exception) {
         println("ERROR: ${e.message}")

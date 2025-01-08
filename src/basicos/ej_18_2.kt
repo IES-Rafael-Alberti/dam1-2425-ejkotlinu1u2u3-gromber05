@@ -10,7 +10,7 @@ fun Ejercicio18_U1() {
             return
         }
 
-        imprimirNombredeUsuario(nombreUsuario)
+        imprimirNombredeUsuario(nombreUsuario = nombreUsuario)
 
     }
     catch (e: NumberFormatException) {

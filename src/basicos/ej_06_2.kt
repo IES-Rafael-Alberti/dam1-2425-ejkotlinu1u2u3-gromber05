@@ -11,7 +11,7 @@ fun Ejercicio06_U1() {
         }
 
         val precio = input.toFloat()
-        val ivaCalculado = calcularIva(precio)
+        val ivaCalculado = calcularIva(precio = precio)
         val precioFinal = precio - ivaCalculado
 
         println("El Precio sin IVA calculado es: $precioFinal")

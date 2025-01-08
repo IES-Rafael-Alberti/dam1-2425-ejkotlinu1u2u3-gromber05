@@ -18,7 +18,7 @@ fun Ejercicio12_U1() {
             return
         }
         val estatura = inputEstatura.toFloat()
-        val totalIMC = calcularIMC(kilogramosFinal, estatura)
+        val totalIMC = calcularIMC(peso = kilogramosFinal, estatura = estatura)
 
         println("Su IMC es: $totalIMC")
 

@@ -9,7 +9,7 @@ fun Ejercicio03_U2() {
         println("Introduzca el divisor >> ")
         val divisor = readln().toInt()
 
-        val resultado = realizarDivision(dividendo, divisor)
+        val resultado = realizarDivision(dividendo = dividendo, divisor = divisor)
 
         if (resultado == null) {
             println("El divisor no puede ser cero")

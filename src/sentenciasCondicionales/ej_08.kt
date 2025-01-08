@@ -5,7 +5,7 @@ fun Ejercicio08_U2() {
 
         val puntuacion = pedirPuntuacion()
 
-        println(verificarPuntuacion(puntuacion))
+        println(verificarPuntuacion(puntuacion = puntuacion))
 
     } catch (exception: Exception) {
         println("ERROR: ${exception.message}")

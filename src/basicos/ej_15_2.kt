@@ -11,9 +11,9 @@ fun Ejercicio15_U1() {
 
         val salario = input.toDouble()
 
-        val primerAnio = calcularIntereses(salario, 1.4)
-        val segundoAnio = calcularIntereses(primerAnio, 1.4)
-        val tercerAnio = calcularIntereses(segundoAnio, 1.4)
+        val primerAnio = calcularIntereses(salario = salario, intereses = 1.4)
+        val segundoAnio = calcularIntereses(salario = primerAnio, intereses = 1.4)
+        val tercerAnio = calcularIntereses(salario = segundoAnio, intereses = 1.4)
 
         println("Primer año: $primerAnio")
         println("Segundo año: $segundoAnio")

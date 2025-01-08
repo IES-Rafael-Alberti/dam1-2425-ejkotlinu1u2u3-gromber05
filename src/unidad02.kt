@@ -20,16 +20,16 @@ fun unidad02() {
         8. Ejercicio 6
         9. Ejercicio 7
         10. Ejercicio 8
-        10. Ejercicio 13
-        11. Ejercicio 15
-        12. Ejercicio 18
-        13. Ejercicio 19
-        14. Ejercicio 25
+        11. Ejercicio 13
+        12. Ejercicio 15
+        13. Ejercicio 18
+        14. Ejercicio 19
+        15. Ejercicio 25
         Capturas de excepciones
-        15. Ejercicio 2
-        16. Ejercicio 3
-        17. Ejercicio 4
-        18. Salir
+        16. Ejercicio 2
+        17. Ejercicio 3
+        18. Ejercicio 4
+        19. Salir
         Seleccione la opción que desee >> 
         """.trimIndent()
         )
@@ -88,7 +88,17 @@ fun unidad02() {
                 Ejercicio08_U2_1()
                 esperarYBorrarConsola()
             }
-            18 -> salir = true
+            11 -> {
+                empezarPrograma()
+                Ejercicio13_U2_1()
+                esperarYBorrarConsola()
+            }
+            12 -> {
+                empezarPrograma()
+                Ejercicio15_U2_1()
+                esperarYBorrarConsola()
+            }
+            19 -> salir = true
                 else -> {
                     empezarPrograma()
                     println("Opción no válida.")

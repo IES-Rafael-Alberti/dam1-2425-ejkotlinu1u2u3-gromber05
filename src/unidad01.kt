@@ -1,4 +1,5 @@
-import basicos.*
+import com.unidad1.basicos.*
+import java.lang.NumberFormatException
 
 fun unidad01() {
     var salir = false
@@ -32,7 +33,8 @@ fun unidad01() {
                     empezarPrograma()
                     Ejercicio04_U1()
                     esperarYBorrarConsola()
-                } 2 -> {
+                }
+                2 -> {
                 empezarPrograma()
                 Ejercicio06_U1()
                 esperarYBorrarConsola()
@@ -84,7 +86,7 @@ fun unidad01() {
                 }
             }
         }
-        catch (numberFormatException: java.lang.NumberFormatException) {
+        catch (numberFormatException: NumberFormatException) {
             println("No puedes introducir un valor vacío")
             esperarYBorrarConsola()
         }

@@ -1,5 +1,6 @@
-import sentenciasCondicionales.*
-import sentenciasIterativas.*
+import com.unidad2.sentenciasCondicionales.*
+import com.unidad2.sentenciasIterativas.*
+import com.unidad2.capturaExcepciones.*
 
 fun unidad02() {
     var salir = false
@@ -111,6 +112,21 @@ fun unidad02() {
             15 -> {
                 empezarPrograma()
                 Ejercicio25_U2_1()
+                esperarYBorrarConsola()
+            }
+            16 -> {
+                empezarPrograma()
+                Ejercicio02_U2_2()
+                esperarYBorrarConsola()
+            }
+            17 -> {
+                empezarPrograma()
+                Ejercicio03_U2_2()
+                esperarYBorrarConsola()
+            }
+            18 -> {
+                empezarPrograma()
+                Ejercicio04_U2_2()
                 esperarYBorrarConsola()
             }
             19 -> salir = true

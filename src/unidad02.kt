@@ -98,6 +98,21 @@ fun unidad02() {
                 Ejercicio15_U2_1()
                 esperarYBorrarConsola()
             }
+            13 -> {
+                empezarPrograma()
+                Ejercicio18_U2_1()
+                esperarYBorrarConsola()
+            }
+            14 -> {
+                empezarPrograma()
+                Ejercicio19_U2_1()
+                esperarYBorrarConsola()
+            }
+            15 -> {
+                empezarPrograma()
+                Ejercicio25_U2_1()
+                esperarYBorrarConsola()
+            }
             19 -> salir = true
                 else -> {
                     empezarPrograma()

@@ -9,8 +9,7 @@ val VOCAL = mutableMapOf(
 )
 
 fun Ejercicio09_U3() {
-
-
+    println("Introduzca una palabra »» ")
     try {
         val palabra = pedirPalabra()
         contarVocales(palabra = palabra)

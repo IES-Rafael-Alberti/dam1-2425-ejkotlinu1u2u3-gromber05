@@ -6,7 +6,6 @@ fun Ejercicio02_U2_2() {
     for (num in 1..input step 2){
         print("$num")
     }
-
 }
 
 fun pedirNumero(msj: String) : Int {

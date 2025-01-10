@@ -1,6 +1,6 @@
 package com.menu
-import com.unidad3.diccionarios.Ejercicio03_U3_1
-import com.unidad3.diccionarios.Ejercicio05_U3_1
+
+import com.unidad3.diccionarios.*
 import com.unidad3.listasYTuplas.*
 import empezarPrograma
 import esperarYBorrarConsola
@@ -81,6 +81,31 @@ fun unidad03() {
             8 -> {
                 empezarPrograma()
                 Ejercicio05_U3_1()
+                esperarYBorrarConsola()
+            }
+            9 -> {
+                empezarPrograma()
+                Ejercicio06_U3_1()
+                esperarYBorrarConsola()
+            }
+            10 -> {
+                empezarPrograma()
+                Ejercicio07_U3_1()
+                esperarYBorrarConsola()
+            }
+            11 -> {
+                empezarPrograma()
+                Ejercicio08_U3_1()
+                esperarYBorrarConsola()
+            }
+            12 -> {
+                empezarPrograma()
+                Ejercicio10_U3_1()
+                esperarYBorrarConsola()
+            }
+            13 -> {
+                empezarPrograma()
+                Ejercicio11_U3_1()
                 esperarYBorrarConsola()
             }
             20 -> salir = true
